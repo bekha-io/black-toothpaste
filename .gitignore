@@ -138,3 +138,5 @@ GitHub.sublime-settings
 
 venv
 db.sqlite3
+media
+static
