@@ -5,6 +5,8 @@ ENV PYTHONUNBUFFERED=1
 EXPOSE 80
 
 WORKDIR /app
+RUN mkdir -p /media
+RUN mkdir -p /static
 
 COPY requirements.txt /app/
 RUN pip install --default-timeout=2000 -r requirements.txt
