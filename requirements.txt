@@ -1,0 +1,6 @@
+django==4.2.3
+djangorestframework
+markdown
+django-filter
+Pillow
+django-cors-headers
